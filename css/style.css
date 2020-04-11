@@ -1,0 +1,54 @@
+body{
+    font-family: lucida-sans;
+}
+.sections{
+    padding:20px 0;
+}
+header{
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    position:relative;
+}
+header i.icon{
+    position:absolute;
+    right:30px;
+    top:32px;
+    z-index: 10;
+    display: none;
+}
+header.logo h2{
+    font-size: 70px;
+}
+header nav .nav-list{
+    list-style:none;
+    display:flex;
+    justify-content: space-around;
+}
+header nav .nav-list .list a{
+    display:block;
+    padding:15px 0;
+    margin: 9px 0;
+    text-decoration: none;
+    transition:all 0.3s ease-in-out;
+}
+header nav .nav-list .list a:hover{
+    color:#7cb62f;
+}
+@media (max-width:575px){
+    header nav .nav-list{
+        display:none;
+        text-align: center;
+        padding: 0;
+    }
+    header .logo{
+        text-align: center;
+    }
+    header i.icon{
+    display: block;
+}
+}
+.home{
+    height:500px;
+    background-image:url("C:\Users\doc\Desktop\template\images\home\1.jpg")
+}
